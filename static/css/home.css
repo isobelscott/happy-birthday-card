@@ -17,3 +17,9 @@ body {
   font-size: 80px;
   float: left;
 }
+
+.bon-anniv {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
