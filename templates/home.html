@@ -11,15 +11,20 @@
     {% block content %}
 
   <body>
-    <div class="link-to-card">
-      <img src="{{url_for('static', filename='speech-bubble.jpg')}}"/>
-      <a href="{{ url_for('trente') }}"><br>Open </br><br>the </br><br>card!</br></a>
+
+    <div class="open-card">
+      <div class="speech-bubble"></div>
+        <img src="{{url_for('static', filename='speech-bubble.jpg')}}"/>
+      </div>
+      <div class="link-to-card">
+        <a href="{{ url_for('trente') }}">Open the card!</a>
+      </div>
     </div>
 
-    <div class="castor">
-    <iframe src="https://giphy.com/embed/ROcSJHrOhhBkc" width="800" height="900" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-
+    <div>
+    <iframe src="https://giphy.com/embed/ROcSJHrOhhBkc" class="castor"></iframe>
     </div>
+
   </body>
     {% endblock %}
 
